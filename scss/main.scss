@@ -1,1 +1,18 @@
-@import "typography";
+//@import "typography";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.brand-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
