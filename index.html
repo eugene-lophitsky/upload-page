@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="scss/main.scss">
   <!--  <link rel="stylesheet" href="scss/main.scss">-->
 
 </head>
@@ -30,85 +30,7 @@
   </div>
 
   <div class="brand-promo">
-
     <div class="brand-promo-text">
-      <div class="dots-matrix">
-
-        <div class="circle-string one">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string two">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string three">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string four">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string five">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string six">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string seven">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-        <div class="circle-string eight">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-
-      </div>
-
       <div class="promo-text-large">We Help You Make Modern Interior</div>
       <div class="promo-text-small">We will help you to make an elegant and luxurious interior designed by
         professional
@@ -116,6 +38,9 @@
       </div>
     </div>
     <div class="brand-promo-image"><img src="img/flat.jpg" alt=""></div>
+    <div class="dots">
+      <img src="img/dots.png" alt="">
+    </div>
   </div>
 
   <div class="trusted-partners">
@@ -142,19 +67,109 @@
 </div>
 
 <div class="advantages">
+  <div class="advantages-wrapper">
 
-  <div class="deals">
-    <div class="deals-item">Hot</div>
-    <div class="deals-item">deals for you</div>
-    <div class="deals-item">Online shopping for retail sales direct to consumers</div>
+    <div class="deals hot-deals">
+      <div class="deals-item big-green-title">Hot
+        <div><img src="img/fire.jpg" alt=""></div>
+      </div>
+      <div class="deals-item big-green-title">deals for you</div>
+      <div class="shopping-item">
+        <div class="shopping-itm itm3">Online shopping for retail sales</div>
+        <div class="shopping-itm">direct to consumers</div>
+      </div>
+
+    </div>
+
+    <div class="deals cashback">
+      <div class="deals-item">
+        <div><img src="img/adv-pic.jpg" alt=""></div>
+      </div>
+      <div class="deals-item">1.5% cashback</div>
+      <div class="shopping-item">
+        <div class="shopping-itm">Online shopping for retail sales</div>
+        <div class="shopping-itm">direct to consumers</div>
+      </div>
+    </div>
+
+    <div class="deals terms">
+      <div class="deals-item">
+        <div><img src="img/adv-pic.jpg" alt=""></div>
+      </div>
+      <div class="deals-item">30-day terms</div>
+      <div class="shopping-item">
+        <div class="shopping-itm">Online shopping for retail sales</div>
+        <div class="shopping-itm">direct to consumers</div>
+      </div>
+    </div>
+
+    <div class="deals save-money">
+      <div class="deals-item">
+        <div><img src="img/adv-pic.jpg" alt=""></div>
+      </div>
+      <div class="deals-item">Save money</div>
+      <div class="shopping-item">
+        <div class="shopping-itm">Online shopping for retail sales</div>
+        <div class="shopping-itm">direct to consumers</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-us">
+  <div class="about-us-header">
+
+    <div class="about-us-text">
+      <div class="big-green-title">About US</div>
+      <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta
+      </div>
+    </div>
+
+    <div class="about-us-button">
+      <button class="button">Learn more</button>
+    </div>
   </div>
 
-  <div class="deals"></div>
-  <div class="deals"></div>
-  <div class="deals"></div>
+
+  <div class="about-us-details">
+
+    <div class="about-us-details-text">
+      <div class="about-us-item">
+        <div class="about-us-number">1</div>
+        <div class="about-us-item-title">Who we are</div>
+        <div class="about-us-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+      </div>
+
+      <div class="about-us-item">
+        <div class="about-us-number">2</div>
+        <div class="about-us-item-title">What do we do</div>
+        <div class="about-us-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+      </div>
+
+      <div class="about-us-item">
+        <div class="about-us-number">3</div>
+        <div class="about-us-item-title">How do we help</div>
+        <div class="about-us-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+      </div>
+
+      <div class="about-us-item">
+        <div class="about-us-number">4</div>
+        <div class="about-us-item-title">Create success story</div>
+        <div class="about-us-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+      </div>
+    </div>
 
 
-  <div class="steps"></div>
+    <div class="about-us-details-pictures">
+      <div class="about-us-img"><img src="img/about-1.jpg" alt=""></div>
+      <div class="about-us-img"><img src="img/about-2.jpg" alt=""></div>
+      <div class="about-us-img"><img src="img/about-3.jpg" alt=""></div>
+      <div class="about-us-img"><img src="img/about-4.jpg" alt=""></div>
+    </div>
+
+
+  </div>
+
 
 </div>
 

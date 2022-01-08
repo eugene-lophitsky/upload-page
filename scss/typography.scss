@@ -1,9 +1,10 @@
 @import "colors.scss";
 
-h1 {
- color:$brand-text-color;
-}
-
-.header-menu-item {
-
+.big-green-title {
+  max-height: 55px;
+  font-size: 54px;
+  font-weight: bold;
+  color: $dark-green-color;
+  display: flex;
+  flex-direction: row;
 }
