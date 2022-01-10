@@ -1,1 +1,200 @@
 @import "typography";
+@import "colors";
+@import "about-us";
+@import "buttons";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.brand-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 45px;
+  max-width: 1300px;
+}
+
+.header-logo {
+  font-size: 36px;
+  color: $dark-green-color;
+  font-weight: bold;
+  padding-left: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2.6;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: center;
+  flex: 4.1;
+}
+
+.header-menu-item {
+  font-size: 22px;
+  font-family: Calibri, sans-serif;
+  padding: 0 38px 0 38px;
+}
+
+.header-menu-item a {
+  color: $black-color;
+  text-decoration: none;
+}
+
+.header-menu-item a:hover {
+  border-bottom-color: $black-color;
+  border-bottom: solid 3px;
+}
+
+.brand-promo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 41px;
+}
+
+.brand-promo-text {
+  max-width: 488px;
+  height: fit-content;
+  color: $dark-green-color;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 165px;
+  left: 180px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.75);
+  padding-left: 70px;
+  z-index: 1;
+}
+
+.promo-text-large {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 70px;
+  padding-right: 120px;
+}
+
+.promo-text-small {
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-right: 110px;
+}
+
+.brand-promo-image {
+  padding-right: 32px;
+  margin: 0;
+  width: 100%;
+}
+
+.dots {
+  position: absolute;
+  z-index: 100;
+  top: 180px;
+  left: 280px;
+}
+
+.trusted-partners {
+  background-color: $light-bg-color;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 51px;
+}
+
+.trusted-headline {
+  font-size: 24px;
+  font-family: Calibri, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+
+.partners-list {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: 51px 0 51px 0;
+}
+
+.partners-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 15px 0 15px;
+}
+
+.partners-list-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: $logo-grey-color;
+}
+
+.Mashable {
+  font-weight: bold;
+}
+
+.Fortune {
+  font-size: 24px;
+}
+
+.Microsoft {
+  padding-left: 5px;
+}
+
+.site-section {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 183px auto;
+}
+
+.advantages-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.itm3 {
+  margin-top: 14px;
+}
+
+.shopping-itm {
+  font-size: 18px;
+  font-family: Calibri, sans-serif;
+  color: $dark-grey-color;
+  padding-top: 5px;
+}
+
+.cashback, .terms, .save-money {
+  padding: 0 50px 0 50px;
+}
+
+@media screen and (min-width: 1280px) {
+  .site-section {
+    width: 1280px;
+  }
+}
+
+img {
+  width: 100%;
+}
