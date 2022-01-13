@@ -1,0 +1,15 @@
+.products-text-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.products-see-all {
+  align-self: flex-end;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.products, .products-see-all {
+  margin: 0 40px 0 40px;
+}

@@ -1,0 +1,71 @@
+.afterword {
+  max-width: 1400px;
+  background-color: #f4f6f5;
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 5px;
+  margin-top: -200px;
+}
+
+.folder-wrap {
+  width:80px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.10),
+  0 1px 1px rgba(0,0,0,0.16);
+}
+
+.map{
+  width: 57%;
+  height: 57%;
+  border: none;
+}
+
+.afterword-upper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upper-small-text {
+  max-width: 450px;
+  font-size: 20px;
+  text-align: center;
+  color: #526576;
+  margin: 20px 0;
+}
+
+.upper-text {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.upper-big-title {
+  max-width: 450px;
+  font-size: 54px;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: bold;
+  line-height: 54px;
+  color: $dark-green-color;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 145px;
+}
+
+.upper-folder {
+  display: flex;
+  width:280px;
+  align-items: flex-end;
+  padding-bottom: 65px;
+
+}

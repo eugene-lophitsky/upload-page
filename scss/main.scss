@@ -2,6 +2,8 @@
 @import "colors";
 @import "about-us";
 @import "buttons";
+@import "products";
+@import "afterword";
 
 * {
   margin: 0;
@@ -41,7 +43,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-self: center;
-  flex: 4.1;
+  flex: 2.3;
 }
 
 .header-menu-item {
@@ -61,22 +63,22 @@
 }
 
 .brand-promo {
+  height: 41.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-self: stretch;
-  margin-top: 41px;
+  margin: 41px 0 27px 0;
 }
 
 .brand-promo-text {
-  max-width: 488px;
+  max-width: 538px;
   height: fit-content;
   color: $dark-green-color;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 165px;
-  left: 180px;
+  top: 121px;
+  right: 318px;
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.75);
   padding-left: 70px;
@@ -84,10 +86,10 @@
 }
 
 .promo-text-large {
-  font-size: 48px;
+  font-size: 58px;
+  font-family: "Times New Roman", sans-serif;
   font-weight: bold;
-  padding-top: 70px;
-  padding-right: 120px;
+  padding: 70px 110px 0 0;
 }
 
 .promo-text-small {
@@ -95,20 +97,22 @@
   font-family: Calibri, sans-serif;
   padding-top: 20px;
   padding-bottom: 70px;
-  padding-right: 110px;
+  padding-right: 130px;
 }
 
 .brand-promo-image {
-  padding-right: 32px;
-  margin: 0;
-  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  position: absolute;
+  margin: 0 0 0 5px;
 }
 
 .dots {
-  position: absolute;
-  z-index: 100;
-  top: 180px;
-  left: 280px;
+  position: relative;
+  top: 20px;
+  left: -750px;
+  z-index: 2;
 }
 
 .trusted-partners {
@@ -166,12 +170,13 @@
 .site-section {
   display: flex;
   flex-direction: column;
-  margin: 100px auto 183px auto;
+  margin: 100px auto 143px auto;
 }
 
 .advantages-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .itm3 {
@@ -187,6 +192,10 @@
 
 .cashback, .terms, .save-money {
   padding: 0 50px 0 50px;
+
+  .deals-img {
+    width: 44px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -195,6 +204,64 @@
   }
 }
 
-img {
+.room-furniture {
   width: 100%;
+}
+
+.online-shopping-title {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 15px 0 21px 0;
+}
+
+.products-categories {
+  max-width: 420px;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 30px auto;
+  a {
+    color: #bdb79a;
+    text-decoration: none;
+  }
+}
+
+.product-cards {
+  max-width: 1110px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 110px auto;
+}
+
+.card {
+  width: 310px;
+  //background-color: #f4f6f5;
+  padding: 35px 0 175px 45px;
+  margin: 0 28px 186px 28px;
+}
+
+.cards-title {
+  font-size: 28px;
+  font-family: Calibri, sans-serif;
+}
+
+.cards-subtitle {
+  max-width: 135px;
+  font-size: 21px;
+  font-family: Calibri, sans-serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top:25px;
+
+  :nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #a8a7a5;
+    text-decoration: line-through;
+    margin-right: 20px;
+  }
 }

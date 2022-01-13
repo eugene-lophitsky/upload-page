@@ -6,14 +6,11 @@
   <title>furni.shop</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="scss/main.scss">
-
-
+  <link rel="stylesheet" href="css.css">
 </head>
 <body>
 <div class="first-page">
-
 
   <div class="brand-header">
 
@@ -30,14 +27,17 @@
   </div>
 
   <div class="brand-promo">
+
     <div class="brand-promo-text">
       <div class="promo-text-large">We Help You Make Modern Interior</div>
       <div class="promo-text-small">We will help you to make an elegant and luxurious interior designed by
-        professional
-        designer.
+        professional designer.
       </div>
     </div>
-    <div class="brand-promo-image"><img src="img/flat.jpg" alt=""></div>
+
+    <div class="brand-promo-image">
+      <img src="img/flat.jpg" alt="" class="flat">
+    </div>
     <div class="dots">
       <img src="img/dots.png" alt="">
     </div>
@@ -78,14 +78,13 @@
         <div class="shopping-itm itm3">Online shopping for retail sales</div>
         <div class="shopping-itm">direct to consumers</div>
       </div>
-
     </div>
 
     <div class="deals cashback">
-      <div class="deals-item">
+      <div class="deals-img">
         <div><img src="img/adv-pic.jpg" alt=""></div>
       </div>
-      <div class="deals-item">1.5% cashback</div>
+      <div class="online-shopping-title">1.5% cashback</div>
       <div class="shopping-item">
         <div class="shopping-itm">Online shopping for retail sales</div>
         <div class="shopping-itm">direct to consumers</div>
@@ -93,10 +92,10 @@
     </div>
 
     <div class="deals terms">
-      <div class="deals-item">
+      <div class="deals-img">
         <div><img src="img/adv-pic.jpg" alt=""></div>
       </div>
-      <div class="deals-item">30-day terms</div>
+      <div class="online-shopping-title">30-day terms</div>
       <div class="shopping-item">
         <div class="shopping-itm">Online shopping for retail sales</div>
         <div class="shopping-itm">direct to consumers</div>
@@ -104,15 +103,16 @@
     </div>
 
     <div class="deals save-money">
-      <div class="deals-item">
+      <div class="deals-img">
         <div><img src="img/adv-pic.jpg" alt=""></div>
       </div>
-      <div class="deals-item">Save money</div>
+      <div class="online-shopping-title">Save Money</div>
       <div class="shopping-item">
         <div class="shopping-itm">Online shopping for retail sales</div>
         <div class="shopping-itm">direct to consumers</div>
       </div>
     </div>
+
   </div>
 </div>
 
@@ -121,68 +121,144 @@
   <div class="about-us-header">
 
     <div class="about-us-text">
-      <div class="big-green-title">About US</div>
-      <div class="subtitle">At Besnik Consultancy, we take pride in our values - service, integrity, and excellence</div>
+      <div class="big-green-title">About Us</div>
+      <div class="subtitle">At Besnik Consultancy, we take pride in our values - service, integrity, and excellence
+      </div>
     </div>
 
     <div class="about-us-button">
-      <button class="button">Learn more</button>
+      <button class="button" onclick="window.location.href='http://localhost:1234';">Learn more</button>
     </div>
   </div>
-
   <div class="about-us-details">
-
     <div class="about-us-details-text">
       <div class="about-us-item">
         <div class="big-green-title">1.</div>
         <div class="small-green-title">Who we are</div>
         <div class="about-us-item-text">You get a 2-week free trial to kick the Smarty tries. We want you to.</div>
       </div>
-
       <div class="about-us-item">
         <div class="big-green-title">2.</div>
         <div class="small-green-title">What do we do</div>
         <div class="about-us-item-text">We give you a free course that guides you through the process.</div>
       </div>
-
       <div class="about-us-item">
         <div class="big-green-title">3.</div>
         <div class="small-green-title">How do we help</div>
         <div class="about-us-item-text">Use our multimedia lecturers, videos and coaching lessons.</div>
       </div>
-
       <div class="about-us-item">
         <div class="big-green-title">4.</div>
         <div class="small-green-title">Create success story</div>
         <div class="about-us-item-text">With access to online learning anyone can transfrm.</div>
       </div>
     </div>
-
-
     <div class="about-us-details-pictures">
       <div class="about-us-img-wrap">
-      <div class="about-us-img "><img src="img/about-1.jpg" alt=""></div>
-      <div class="about-us-img"><img src="img/about-2.jpg" alt=""></div>
+        <div class="about-us-img "><img src="img/about-1.jpg" class="room-furniture" alt=""></div>
+        <div class="about-us-img"><img src="img/about-2.jpg" class="room-furniture" alt=""></div>
       </div>
       <div class="about-us-img-wrap">
-      <div class="about-us-img"><img src="img/about-3.jpg" alt=""></div>
-      <div class="about-us-img"><img src="img/about-4.jpg" alt=""></div>
+        <div class="about-us-img"><img src="img/about-3.jpg" class="room-furniture" alt=""></div>
+        <div class="about-us-img"><img src="img/about-4.jpg" class="room-furniture" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="site-section">
+  <div class="products-header">
+    <div class="products-text-wrap">
+      <div class="big-green-title products">Products</div>
+      <div class="products-see-all"><img src=" img/see-all.jpg" alt=""></div>
+    </div>
+    <div class="products-categories">
+      <div><a href="http://localhost:1234">All</a></div>
+      <div><a href="http://localhost:1234">Bed</a></div>
+      <div><a href="http://localhost:1234">Sofa</a></div>
+      <div><a href="http://localhost:1234">Chair</a></div>
+      <div><a href="http://localhost:1234">Light</a></div>
+    </div>
+  </div>
+
+  <div class="product-cards">
+    <div class="card">
+      <div class="cards-title">Hand Base Lamp</div>
+      <div class="cards-subtitle">
+        <div>$35</div>
+        <div>$35</div>
       </div>
     </div>
 
+    <div class="card">
+      <div class="cards-title">Vintage Chair</div>
+      <div class="cards-subtitle">
+        <div>$65</div>
+        <div>$95</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cards-title">Lamp Tool</div>
+      <div class="cards-subtitle">
+        <div>$35</div>
+        <div>$45</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cards-title">Stylish Chair</div>
+      <div class="cards-subtitle">
+        <div>$45</div>
+        <div>$55</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cards-title">Vintage Chair</div>
+      <div class="cards-subtitle">
+        <div>$65</div>
+        <div>$95</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cards-title">Stackable Chair</div>
+      <div class="cards-subtitle">
+        <div>$87</div>
+        <div>$97</div>
+      </div>
+    </div>
 
   </div>
 
+</div>
+
+<div class="site-section afterword">
+
+  <div class="afterword-upper">
+
+    <div class="upper-segment"><img src="img/segment.jpg" alt=""></div>
+
+    <div class="upper-text">
+      <div class="upper-big-title">What our happy client say</div>
+      <div class="upper-small-text"> File storage made easy - including powerful features you won't find anywhere else.
+        Whether you're.
+      </div>
+    </div>
+
+    <div class="upper-folder">
+      <div class="folder-wrap"><img src="img/folder.png" alt="" class="map"></div>
+    </div>
+
+  </div>
+
+  <div class="afterword-bottom">
+    furni.shop
+    File storage made easy - including powerful features you won't find anywhere else. Whether you're.
+  </div>
 
 </div>
 
-
-<!-- Add your site or application content here -->
-<!--  <h1>Hallo world! This is HTML5 Boilerplate.</h1>-->
-<!--  <script src="js/vendor/modernizr-3.11.2.min.js"></script>-->
-<!--  <script src="js/plugins.js"></script>-->
-<!--  <script src="js/main.js"></script>-->
-
 </body>
-
 </html>
